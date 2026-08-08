@@ -67,7 +67,6 @@ resources/ reference_links.md cheat_sheets/
 - I push updates after each session to track progress and build my portfolio
 
 🔗 Useful References
-- [Spatial SQL Book by Matt Forrest](https://spatial-sql.com/)
 - [GeoPandas Documentation](https://geopandas.org/en/stable/)
 - [DuckDB Documentation](https://duckdb.org/docs/current/)
 - [PostGIS Documentation](https://postgis.net/docs/)- 
