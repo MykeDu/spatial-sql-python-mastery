@@ -13,7 +13,7 @@ This repository documents my journey through the Spatial SQL & Python Mastery pl
 
 
 🗂️ Folder Structure
-[](/_imgs/flderStruc.png)
+![](/_imgs/flderStruc.png)
 
 - Each lesson, dayXX_* folder matches your daily plan: keep lesson notes, code, and prompt patterns together.
 - Use the capstones folder for your 30/60/90/180-day portfolio projects.
