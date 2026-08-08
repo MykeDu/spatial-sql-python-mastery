@@ -13,32 +13,7 @@ This repository documents my journey through the Spatial SQL & Python Mastery pl
 
 
 🗂️ Folder Structure
-spatial-sql-python-mastery/
-│ README.md
-│ .gitignore
-│
-├── Capstone Projects
-|   |  
-|   ├── day30_portfolio_project/
-|   |   project_overview.md
-|   |   code/
-|   |   data/
-|
-├── Lessons
-│   │
-|   ├── day01_sql_intro/
-│   |   lesson_notes.md
-│   |   practice_query.sql
-│   |   ai_prompt_examples.md
-|   |
-│   ├── day02_python_gdf/
-|   |   lesson_notes.md
-|   |   first_script.py
-|   |   ai_prompt_examples.md
-│
-└── resources/
-    ├── reference_links.md
-    ├── cheat_sheets/
+[](/_imgs/flderStruc.png)
 
 - Each lesson, dayXX_* folder matches your daily plan: keep lesson notes, code, and prompt patterns together.
 - Use the capstones folder for your 30/60/90/180-day portfolio projects.
