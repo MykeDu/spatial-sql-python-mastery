@@ -13,6 +13,7 @@ This repository documents my journey through the Spatial SQL & Python Mastery pl
 
 
 🗂️ Folder Structure
+
 ![](/_imgs/flderStruc.png)
 
 - Each lesson, dayXX_* folder matches your daily plan: keep lesson notes, code, and prompt patterns together.
