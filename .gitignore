@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+#Ignore C extensions
+*.so
+
+#Ignore virtual environments
+env/
+venv/
+.Python
+
+#Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore data files (optional: remove these lines if you want to keep data in your repo)
+data/
+*.geojson
+*.shp
+*.dbf
+*.sqlite
+*.gpkg
+*.csv
+*.zip
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore log files
+*.log
