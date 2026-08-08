@@ -5,7 +5,7 @@ This repository documents my journey through the Spatial SQL & Python Mastery pl
 - Daily folders for each practice session (SQL and Python)
 - Capstone projects at 30, 60, 90, and 180 days
 - Resources and reference materials
-- 
+  
 🚀 Goals
 - Write working code for real spatial analysis tasks
 - Build a public portfolio of SQL queries, Python scripts, and AI prompt patterns
