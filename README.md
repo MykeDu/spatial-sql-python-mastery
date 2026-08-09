@@ -15,9 +15,11 @@ Hi, I’m Mike—a GIS analyst focused on mastering code-first, modern spatial w
 🚀 Goals
 - Write working code for real spatial analysis tasks
 - Build a public portfolio of SQL queries, Python scripts, and AI prompt patterns
+- Practice prompt engineering with AI to accelerate learning
 - Master the modern GIS stack: DuckDB, PostGIS, SedonaDB, GeoPandas, Rasterio
 
-💾 Data Path - Use shorter data path when error happen
+💾 Data Path
+Note: On Windows, I store large or raw data in a short path to avoid issues
 - Remember to use c:/tmp when long data path cause a problem
 - use environment variables for the data path
 ```
@@ -52,6 +54,19 @@ resources/ reference_links.md cheat_sheets/
 - Each day, I add my code, notes, and prompt patterns to the matching folder
 - Capstone projects are documented in their own subfolders
 - I push updates after each session to track progress and build my portfolio
+
+## Daily Logs
+All daily progress logs are in the /daily folder, named by date (e.g., 2026-08-09.md). Each log includes:
+- A summary of what I practiced
+- Key code snippets
+- Reflections and next steps
+- Notes on AI prompt patterns and troubleshooting
+
+## Learning Philosophy
+- Implementation over theory: I learn by writing real code, not just reading docs.
+- AI as a coding partner: I use AI to help write, debug, and explain code.
+- Portfolio-driven: Every day’s work is visible and builds toward real-world projects.
+- Consistency: Daily practice is the foundation of fluency.
 
 🔗 Useful References
 - [GeoPandas Documentation](https://geopandas.org/en/stable/)
