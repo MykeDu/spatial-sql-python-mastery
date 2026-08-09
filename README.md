@@ -13,6 +13,16 @@ This repository documents my journey through the Spatial SQL & Python Mastery pl
 
 💾 Data Path - Use shorter data path when error happen
 - Remember to use c:/tmp when long data path cause a problem
+- use environment variables for the data path
+```
+# config.py
+DATA_PATH = r"C:/tmp"
+
+# main script
+import os
+from config import DATA_PATH
+parcels = gpd.read_file(os.path.join(DATA_PATH, 'parcels.geojson'))
+```
 
 🗂️ Folder Structure
 
