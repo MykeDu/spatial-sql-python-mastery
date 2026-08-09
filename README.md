@@ -1,6 +1,12 @@
 # Spatial SQL & Python Mastery
 This repository documents my journey through the Spatial SQL & Python Mastery plan, focused on building real fluency in modern GIS workflows using SQL (DuckDB, PostGIS) and Python (GeoPandas, Rasterio).
 
+## About Me
+Hi, I’m Mike—a GIS analyst focused on mastering code-first, modern spatial workflows. My goal is to become fluent in Spatial SQL and Python for spatial analysis, and to build a public portfolio that shows my progress and real-world skills. I’m committed to daily, hands-on practice and sharing what I learn along the way.
+- I’ve worked in GIS for 15+ years, mostly in the ESRI stack, and I’m now making the move to code.
+- I want to work on open data projects and contribute to the modern GIS community.
+- I believe in learning by doing, not just reading theory.
+
 📅 Structure
 - Daily folders for each practice session (SQL and Python)
 - Capstone projects at 30, 60, 90, and 180 days
