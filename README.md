@@ -11,6 +11,8 @@ This repository documents my journey through the Spatial SQL & Python Mastery pl
 - Build a public portfolio of SQL queries, Python scripts, and AI prompt patterns
 - Master the modern GIS stack: DuckDB, PostGIS, SedonaDB, GeoPandas, Rasterio
 
+💾 Data Path - Use shorter data path when error happen
+- Remember to use c:/tmp when long data path cause a problem
 
 🗂️ Folder Structure
 
