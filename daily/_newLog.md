@@ -10,6 +10,12 @@ SELECT * FROM parcels WHERE zoning = 'Residential';
 # GeoPandas: Filter open parks
 gdf_open = parks[parks['status'] == 'Open']
 ```
+Optional data path
+```
+# config.py
+DATA_PATH = r"C:/tmp"
+
+```
 
 ## Reflection: 
 - Writing the SQL query felt pretty natural today, and 
