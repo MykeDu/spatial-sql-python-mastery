@@ -1,4 +1,4 @@
-# Day 17 – August 22, 2026 – Daily Practice Log
+# Day 17 – August 23, 2026 – Daily Practice Log
 
 ## Focus:
 - Reviewing ST_Buffer, ST_DWithin, and ST_Within as three different spatial patterns

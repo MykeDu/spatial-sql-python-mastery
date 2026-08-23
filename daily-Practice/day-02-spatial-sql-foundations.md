@@ -1,4 +1,4 @@
-## Day 2 – Filtering Parcels by Zoning (SQL) & Open Parks (GeoPandas)
+## Day 2 – August 8, 2026 – Filtering Parcels by Zoning (SQL) & Open Parks (GeoPandas)
 Summary: Focused on two core filtering patterns: 
 - selecting parcels by zoning in SQL (DuckDB) and 
 - filtering open parks in Python (GeoPandas). 

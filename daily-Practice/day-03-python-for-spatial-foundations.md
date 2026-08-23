@@ -1,4 +1,4 @@
-## Day 3 – Review: Core Filtering Patterns in SQL & Python
+## Day 3 – August 9, 2026 – Review: Core Filtering Patterns in SQL & Python
 Summary: Today was a consolidation day. I reviewed conditional filtering in both SQL (DuckDB) and Python (GeoPandas), focusing on selecting rows based on attribute values. Reinforced the habit of writing queries that mirror real-world spatial analysis tasks.
 
 ## Key Code Snippets:

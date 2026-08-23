@@ -1,4 +1,4 @@
-## Day 1 – Kickoff: Spatial SQL & Python Mastery
+## Day 1 – August 7, 2026 – Kickoff: Spatial SQL & Python Mastery
 
 Summary: Started my journey to master Spatial SQL (DuckDB, PostGIS) and Python for spatial analysis (GeoPandas, Rasterio). Today’s focus was on setup, understanding the core philosophy (implementation over theory), and running my first basic queries in both SQL and Python.
 

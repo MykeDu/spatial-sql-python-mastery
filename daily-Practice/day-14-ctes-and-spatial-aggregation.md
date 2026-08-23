@@ -1,4 +1,4 @@
-# Day 14 – August 19, 2026 – Daily Practice Log
+# Day 14 – August 20, 2026 – Daily Practice Log
 
 ## Focus:
 - Using Common Table Expressions (CTEs) to organize multi-step spatial SQL
