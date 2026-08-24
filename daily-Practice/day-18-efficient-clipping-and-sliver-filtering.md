@@ -9,16 +9,17 @@ Choosing area thresholds based on whether the source data is measured in feet or
 
 ## Activities Planned
 
-Micro-lesson: Learn how ST_Intersection clips one geometry to another
-Practice problem: Clip building footprints to the Downtown historic district
-Prompt drill: Ask AI to refactor a clipping query so it filters candidates before computing intersections
+- Micro-lesson: Learn how ST_Intersection clips one geometry to another
+- Practice problem: Clip building footprints to the Downtown historic district
+- Prompt drill: Ask AI to refactor a clipping query so it filters candidates before computing intersections
 
-Key Learning Goals:
-Use ST_Intersection to return the exact geometry shared by two overlapping features
-Use ST_Intersects before ST_Intersection to avoid running expensive clipping operations on every feature
-Use ST_Dimension to remove point-only or line-only boundary contacts
-Use ST_Area to remove tiny sliver polygons from the output
-Check the CRS before applying area thresholds, because square meters and square feet require different cutoff values
+## Key Learning Goals
+
+- Use ST_Intersection to return the exact geometry shared by two overlapping features
+- Use ST_Intersects before ST_Intersection to avoid running expensive clipping operations on every feature
+- Use ST_Dimension to remove point-only or line-only boundary contacts
+- Use ST_Area to remove tiny sliver polygons from the output
+- Check the CRS before applying area thresholds, because square meters and square feet require different cutoff values
 
 ## Sample Prompt (Planned)
 
@@ -27,6 +28,7 @@ Check the CRS before applying area thresholds, because square meters and square 
 ## Sample Query (Planned): PostGIS SQL
 
 ```sql
+
 WITH target_district AS (
  SELECT
  geom
@@ -83,7 +85,7 @@ clipped_buildings = clipped_buildings.loc[ (~clipped_buildings.geometry.is_empty
 
 ```
 
-## Reflection (Planned):
+## Reflection (Planned)
 
 - ST_Intersects answers the candidate question: does this building touch or overlap the district?
 - ST_Intersection answers the clipping question: what exact piece of the building is inside the district?
