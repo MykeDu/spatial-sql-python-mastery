@@ -2,15 +2,18 @@
 # Day 24: Nearest Neighbor Pattern Review
 
 ## What I Did Today
+
 Today was a review and maintenance day.
 Instead of adding a new spatial function, I reinforced a pattern I practiced this week: finding the nearest feature efficiently.
 I also organized my project files, planned the coming week, and committed my work to GitHub.
 
 ## Pattern Reviewed: Nearest Neighbor
+
 The spatial question is simple:
 For each source feature, what is the closest target feature?
 
 **Examples:**
+
 - Find the nearest hospital for every incident.
 - Find the nearest fire station for every sinkhole.
 - Find the nearest road, parcel, or service location for each point.
@@ -43,12 +46,11 @@ Read the query like a sentence:
 For each sinkhole, find the single fire station whose geometry is closest, then return that station and the distance.
 
 **Why this pattern matters**
-
 ORDER BY <-> can use a spatial index, which makes a major difference when the source and target tables are large.
 
 The important implementation pattern is:
 
-```
+```python
 CROSS JOIN LATERAL
 ORDER BY source_geom <-> target_geom
 LIMIT 1
@@ -77,7 +79,7 @@ For each sinkhole, attach the nearest fire station, keep every sinkhole, and sto
 
 Before calculating distance, both layers need a projected CRS with useful distance units.
 
-```
+```python
 sinkholes = sinkholes.to_crs("EPSG:26917")
 fire_stations = fire_stations.to_crs("EPSG:26917")
 ```
@@ -106,6 +108,7 @@ Clean files, clear project structure, and regular commits make it easier to insp
 This nearest-neighbor pattern fits directly into my Florida sinkhole and fire-station project.
 
 A practical next analysis is to:
+
 1. Load sinkhole incidents and fire-station locations.
 2. Find the nearest fire station for each sinkhole.
 3. Store the nearest-station distance.
@@ -125,7 +128,3 @@ In SQL, that means CROSS JOIN LATERAL with ORDER BY <->.
 In GeoPandas, that means sjoin_nearest().
 
 The function names are different. The spatial problem is the same.
-
-
-
-
