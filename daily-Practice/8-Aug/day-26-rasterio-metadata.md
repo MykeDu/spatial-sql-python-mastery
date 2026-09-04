@@ -1,4 +1,4 @@
-# Day 26: Inspecting Raster Metadata with Rasterio
+# Day 26: 2026-9-1, Inspecting Raster Metadata with Rasterio
 
 Today I practiced the core Rasterio pattern for safely opening a GeoTIFF and inspecting its metadata.
 
