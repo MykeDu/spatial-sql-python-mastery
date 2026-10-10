@@ -78,8 +78,6 @@ CREATE INDEX schools_geom_gix ON schools USING GIST (geom);
 CREATE INDEX fire_stations_geom_gix ON fire_stations USING GIST (geom);
 CREATE INDEX neighborhoods_geom_gix ON neighborhoods USING GIST (geom);
 
-
-
 ```
 
 ## AI Pairing Prompt
@@ -103,7 +101,6 @@ Check the query for:
 
 Explain each recommendation in plain English, then provide a revised query only where a change is necessary.
 
-
 ## Why This Matters
 
 This is a real-world spatial SQL pattern, not a one-off exercise.
@@ -113,7 +110,6 @@ Proximity analysis appears in emergency response, service coverage, site selecti
 The professional move is choosing the lightest function that answers the question, then structuring the SQL so someone else can read, test, and extend it.
 
 The win today was not just writing a working query. It was recognizing that ST_DWithin expresses the proximity question more directly and is the stronger production pattern for an index-aware filter.
-
 
 ## Next Steps
 
